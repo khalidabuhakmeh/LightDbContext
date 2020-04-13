@@ -1,0 +1,36 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<table class="table table-bordered">
+    <thead>
+    <tr>
+        <td>Execution</td>
+        <td>Light</td>
+        <td>Heavy</td>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+        <td>
+            Avg:
+        </td>
+        <td>
+            @Model.Light.Average(q => q.Elapsed.TotalMilliseconds) ms
+        </td>
+        <td>
+            @Model.Heavy.Average(q => q.Elapsed.TotalMilliseconds) ms
+        </td>
+    </tr>
+    @for (var i = 0; i < Model.NumberOfExecutions; i++)
+    {
+        <tr>
+            <td># @(i + 1)</td>
+            <td>@Model.Light[i].Elapsed.TotalMilliseconds ms</td>
+            <td>@Model.Heavy[i].Elapsed.TotalMilliseconds ms</td>
+        </tr>
+    }
+    </tbody>
+</table>

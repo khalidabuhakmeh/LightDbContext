@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LightDbContext", "Web\LightDbContext.csproj", "{557F0BCF-DF08-412C-BB27-B27F7BE189F2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Benchmarks", "Benchmarks\Benchmarks.csproj", "{59352E10-0948-4BF7-9B04-AB7B2097F04D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{557F0BCF-DF08-412C-BB27-B27F7BE189F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{557F0BCF-DF08-412C-BB27-B27F7BE189F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{557F0BCF-DF08-412C-BB27-B27F7BE189F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{557F0BCF-DF08-412C-BB27-B27F7BE189F2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{59352E10-0948-4BF7-9B04-AB7B2097F04D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{59352E10-0948-4BF7-9B04-AB7B2097F04D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{59352E10-0948-4BF7-9B04-AB7B2097F04D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{59352E10-0948-4BF7-9B04-AB7B2097F04D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
